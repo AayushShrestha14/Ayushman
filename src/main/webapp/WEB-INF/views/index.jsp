@@ -13,5 +13,10 @@
     </head>
     <body>
         <h1>Hello ${title}</h1>
+        <ul>
+            <c:forEach var="department" items="${departments}">
+                <li>${department}</li>
+            </c:forEach>
+        </ul>    
     </body>
 </html>
